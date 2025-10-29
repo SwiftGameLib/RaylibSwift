@@ -1,0 +1,19 @@
+{
+    "schemaVersion": "1.0",
+    "artifacts": {
+        "raylib": {
+            "version": "5.5.0",
+            "type": "staticLibrary",
+            "variants": [
+                {
+                    "path": "raylib-5.5.0-macos/bin/libraylib.a",
+                    "supportedTriples": ["arm64-apple-macosx"],
+                    "staticLibraryMetadata": {
+                        "headerPaths": ["raylib-5.5.0-macos/include"],
+                        "moduleMapPath": "raylib-5.5.0-macos/include/module.modulemap"
+                    }
+                }
+            ]
+        }
+    }
+}
