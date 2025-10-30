@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:RaylibSwift}",
+            "name": "Debug RaylibExample",
+            "program": "${workspaceFolder:RaylibSwift}/.build/debug/RaylibExample",
+            "preLaunchTask": "swift: Build Debug RaylibExample"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:RaylibSwift}",
+            "name": "Release RaylibExample",
+            "program": "${workspaceFolder:RaylibSwift}/.build/release/RaylibExample",
+            "preLaunchTask": "swift: Build Release RaylibExample"
+        }
+    ]
+}
